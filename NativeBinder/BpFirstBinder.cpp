@@ -118,6 +118,6 @@ status_t BnFirstBinder::onTransact(
 		break;
 	}
 	
-	return 0;
+	return NO_ERROR;
 }
 
