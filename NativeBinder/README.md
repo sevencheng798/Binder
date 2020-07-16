@@ -12,19 +12,16 @@ NativeBinder Test
 # 编译并执行
 
 - 执行Service端
-    
+    ```
 	./FirstBinderTestService
 	07-15 09:38:43.573  2388  2388 D FirstBinderServiceTest: ServiceManager: 0xb5b8fca0  
-	
     07-15 09:38:43.574  2388  2388 D FirstBinderServiceTest: main():line:64 start addServer().  
-	
     07-15 09:38:43.576  2388  2388 D FirstBinderServiceTest: main():line:67 start ThreadPool().  
-	
     07-15 09:38:43.576  2388  2388 D FirstBinderServiceTest: main():line:70 start joinThreadPool().  
-	
+	```
 
 - 执行Client端
-
+    ```
     ./FirstBinderTestClient  
 	
 	07-15 09:38:51.928  2390  2390 D FirstBinderClientTest: main():LINE:15 Start.  
@@ -60,5 +57,5 @@ NativeBinder Test
 	07-15 09:38:51.937  2390  2390 D BpFirstBinder: total():LINE:74 total->reply:11, Leave.  
 	
 	07-15 09:38:51.938  2390  2390 D FirstBinderClientTest: main():LINE:49 End.  
-	
+	````
 	
