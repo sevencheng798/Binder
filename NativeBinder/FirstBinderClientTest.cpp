@@ -20,7 +20,7 @@ int main(int argc, char**argv) {
 	sp<IServiceManager> sm = defaultServiceManager();
 	ALOGD("ServiceManager: %p", sm.get());
 	
-	// 获取BBinder
+	// 获取BpBinder
 	sp<IBinder> binder = sm->getService(String16(FIRST_SERVICE_NAME));
 	if(binder == NULL)
 	{
@@ -28,7 +28,7 @@ int main(int argc, char**argv) {
 		return -1;
 	}
 	
-	// 通过BBinder得到Bn服务
+	// 通过BpBinder得到binder proxy代理Bp服务, 注意BpBinder->mHandler是target of BBinder的Handler
 	sp<IFirstBinder> service = interface_cast<IFirstBinder>(binder);
 	if(service == NULL)
 	{
