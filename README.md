@@ -9,9 +9,9 @@ Binder
 # Binder通信实例
 
 - [NativeBinder通信](https://github.com/sevencheng798/Binder/tree/master/NativeBinder)
-
-用C++写的本地Binder服务，使用service manager注册本地服务，
-
+```
+    用C++写的本地Binder服务，使用service manager注册本地服务，
+````
 - [NativeBinder中级应用](NativeBinderAdvanced)
 ```
     创建IMemory共享内存通过Binder进行读写操作。
