@@ -6,6 +6,15 @@ Binder
 # Binder通信流程
 - [Binder流程跟踪](https://blog.csdn.net/innost/article/details/47208049)
 
+- 从通信流程角度来看整个过程:
+<div align=center> <img src=image/protocol.jpg /> </div>
+
+- REPLY通信流程
+<div align=center> <img src=image/reply.jpg /> </div>
+
+- REPLY通信流程
+<div align=center> <img src=image/oneway.png /> </div>
+
 # Binder通信实例
 
 - [NativeBinder通信](https://github.com/sevencheng798/Binder/tree/master/NativeBinder)
