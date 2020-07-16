@@ -12,14 +12,14 @@ Binder
 - REPLY通信流程
 <div align=center> <img src=image/reply.jpg /> </div>
 
-- REPLY通信流程
+- ONEWAY通信流程
 <div align=center> <img src=image/oneway.png /> </div>
 
 # Binder通信实例
 
 - [NativeBinder通信](https://github.com/sevencheng798/Binder/tree/master/NativeBinder)
 ```
-    用C++写的本地Binder服务，使用service manager注册本地服务，
+    用C++写的本地Binder服务，使用service manager注册本地服务
 ````
 - [NativeBinder中级应用](NativeBinderAdvanced)
 ```
