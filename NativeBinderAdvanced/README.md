@@ -1,4 +1,4 @@
-NativeBinder Test
+NativeBinder Shared buffer Test
 ================
 
 用C++写的本地Binder服务，使用service manager注册本地服务，
