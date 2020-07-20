@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppBinder</string>
+    <string name="action_settings">Settings</string>
+    <string name="test_getName">GetName</string>
+    <string name="test_setName">SetName</string>
+    <string name="test_add">Add</string>
+    <string name="test_getSum">GetSumbb</string>
+</resources>
