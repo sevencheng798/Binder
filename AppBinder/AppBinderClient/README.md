@@ -7,7 +7,7 @@ APK Binder 和 Native binder直接通信。
   
   binder service客户端: AppBinderClientTest.apk
   
- 注意： 该测试需要配合native service服务端程序。该实例基于native service在[NativeAppBinder中](../../NativeAppBiner)
+ 注意： 该测试需要配合native service服务端程序。该实例基于native service在[NativeAppBinder中](../../NativeAppBinder)
  
 # 编译并执行
 
