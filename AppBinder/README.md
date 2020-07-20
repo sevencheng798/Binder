@@ -13,6 +13,6 @@ AppBinder Test
   
 # 配合测试用的本地Binder
 
-- [NativeBinder服务端](../../NativeAppBinder)
-- [NativeBinder客户端](../../NativeAppBinder)
+- [NativeBinder服务端](../NativeAppBinder)
+- [NativeBinder客户端](../NativeAppBinder)
  
