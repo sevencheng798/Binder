@@ -1,0 +1,8 @@
+# Script to start "am" on the device, which has a very rudimentary
+# shell.
+#
+#!/system/bin/sh
+base=/system
+export CLASSPATH=$base/framework/ServerDemo.jar
+exec app_process $base/bin com.yuanhh.frameworkBinder.ServerDemo "$@"
+

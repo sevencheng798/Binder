@@ -14,17 +14,23 @@ Binder
     创建IMemory共享内存通过Binder进行读写操作。
 ```
 
-- NativeBinder和Framework通信
+- NativeBinder和Framework通信(FrameworkBinderDemo)
+```
+    从framework角度编写的Binder Demo程序
+```
 
 - [NativeBinder和APK通信](AppBinder)
 ```
-    通过APK调用framework binder与底层[native binder](NativeAppBinder)直接通信。该实例主要分两部分： 
+    通过APK调用framework binder与底层[native binder](NativeAppBinder)直接通信。其实与framework binder使用的api完全一样，区别在于通过Activity启用service。
+	该实例主要分两部分： 
     APK Binder Client -> NativeAppBinder Service
     APK Binder Service -> NativeAppBinder Client
 ```
 
 - AIDL通信实例
-
+```
+    真正的从Apk角度编写的Binder Demo程序，也是binder从底层层层向上封装最终提供给APK调用的方式，即AIDL接口。
+```
 
 # Binder通信流程
 - [Binder流程跟踪](https://blog.csdn.net/innost/article/details/47208049)
