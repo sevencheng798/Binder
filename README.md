@@ -18,9 +18,9 @@ Binder
 
 - [NativeBinder和APK通信](AppBinder)
 ```
-	通过APK调用framework binder与底层[native binder](NativeAppBinder)直接通信。该实例主要分两部分： 
-	APK Binder Client -> NativeAppBinder Service
-	APK Binder Service -> NativeAppBinder Client
+    通过APK调用framework binder与底层[native binder](NativeAppBinder)直接通信。该实例主要分两部分： 
+    APK Binder Client -> NativeAppBinder Service
+    APK Binder Service -> NativeAppBinder Client
 ```
 
 - AIDL通信实例
