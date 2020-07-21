@@ -2,7 +2,7 @@
 
 ### 分层图
 
-![framework_binder_demo](/_images/framework_binder_demo.jpg)
+![framework_binder_demo](/images/framework_binder_demo.jpg)
 
 
 ### 运行
@@ -19,11 +19,11 @@
 
 服务端运行结果：
 
-![framework_server](/_images/framework_server.png)
+![framework_server](/images/framework_server.png)
 
 客户端运行结果：
 
-![framework_client](/_images/framework_client.png)
+![framework_client](/images/framework_client.png)
 
 
 更多关于Binder示例程序的说明，请查看文章[Binder系列7 —— 如何使用Binder](http://www.yuanhh.com/2015/11/22/binder-use/)
