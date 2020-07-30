@@ -1,0 +1,5 @@
+package vendor.mediatek.hardware.hello@1.0;
+
+interface IHelloCallback {
+    oneway onNotify(HalEvent event);
+};

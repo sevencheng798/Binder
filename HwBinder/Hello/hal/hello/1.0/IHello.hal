@@ -1,0 +1,8 @@
+package vendor.mediatek.hardware.hello@1.0;
+import IHelloCallback;
+
+interface IHello {
+    init();
+    release();
+    setCallback(IHelloCallback callback);
+};

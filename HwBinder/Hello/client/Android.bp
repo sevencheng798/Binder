@@ -1,0 +1,15 @@
+cc_binary {
+ name: "hello_client",
+ srcs: [
+ "hello_client.cpp",
+ ],
+ shared_libs: [
+ "liblog",
+ "libutils",
+ "libhidlbase",
+ "libhidltransport",
+ "libutils",
+ "vendor.mediatek.hardware.hello@1.0",
+ ],
+}
+

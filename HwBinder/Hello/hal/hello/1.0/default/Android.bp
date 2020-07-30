@@ -1,0 +1,36 @@
+cc_library_shared {
+    name: "vendor.mediatek.hardware.hello@1.0-impl",
+    relative_install_path: "hw",
+    proprietary: true,
+    srcs: [
+        "Hello.cpp",
+        "HelloCallback.cpp",
+    ],
+    shared_libs: [
+        "libhidlbase",
+        "libhidltransport",
+        "libutils",
+        "liblog",
+        "vendor.mediatek.hardware.hello@1.0",
+    ],
+}
+
+cc_binary {
+ name: "vendor.mediatek.hardware.hello@1.0-service",
+ relative_install_path: "hw",
+ defaults: ["hidl_defaults"],
+ vendor: true,
+ init_rc: ["vendor.mediatek.hardware.hello@1.0-service.rc"],
+ srcs: [
+ "service.cpp",
+ ],
+ shared_libs: [
+ "liblog",
+ "libutils",
+ "libhidlbase",
+ "libhidltransport",
+ "libutils",
+ "vendor.mediatek.hardware.hello@1.0",
+ ],
+}
+
